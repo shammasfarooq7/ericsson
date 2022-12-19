@@ -1,7 +1,10 @@
 # create images by going into directories and using these commands.
 cd server
+<!--  -->
 sudo docker build -t server .
+<!--  -->
 cd ../client/
+<!--  -->
 sudo docker build -t client .
 
 # open a terminal, RUN this command.
